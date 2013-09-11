@@ -16,6 +16,10 @@
       <p>
         <button><a href="/sign_out">Sign Out</a></button>
       </p>
+      <p><form action="/tweet" method="POST">
+        <input type="text" id="tweet_box" name="tweet_data">
+        <input type="submit" value="Send tweet!">
+      </form></p>
     </div>
   <% else %>
     <button><a href="/sign_in">Sign In with Twitter</a></button>
